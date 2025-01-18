@@ -121,11 +121,11 @@ Sales Rating = SWITCH(
 
 
 ## 📂 File Structure
-plaintext
 .
 ├── DAX practice.pbix          # Power BI file with analysis
 ├── sample-chocolate-sales-data-all.xlsx  # Source dataset
 ├── README.md                  # Documentation
+
 
 
 ## 🤝 Contributing

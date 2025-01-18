@@ -1,15 +1,9 @@
-Based on the uploaded files, here’s a detailed **README.md** file that includes descriptions of your project, dataset, and methodology, formatted for GitHub.
 
----
-
-### **README.md**
-
-```markdown
 # Chocolate Sales Analysis in Power BI
 
 This project demonstrates an in-depth analysis of chocolate sales using **Power BI**, with a focus on using DAX functions for dynamic insights. The project incorporates the ACMBU methodology to ensure a structured and efficient data analysis process.
 
----
+
 
 ## 📂 Project Overview
 
@@ -19,7 +13,7 @@ This repository contains:
 1. The Power BI file: `DAX practice.pbix`
 2. The source dataset: `sample-chocolate-sales-data-all.xlsx`
 
----
+
 
 ## 🛠 ACMBU Framework Explained
 
@@ -56,7 +50,7 @@ This repository contains:
      - Variables (`VAR`) were used to simplify calculations and improve readability.
      - Measures were written with a focus on reusability and clarity.
 
----
+
 
 ## 📊 Dataset Description
 
@@ -88,7 +82,7 @@ This repository contains:
 - **Insights**:
   - Temporal trend analysis by year, month, or weekday.
 
----
+
 
 ## 🔢 Key DAX Measures
 
@@ -100,7 +94,7 @@ Categorizes performance based on sales amount:
 - 🔴 Red Light: < 2 million
 
 **DAX Code**:
-```DAX
+DAX
 Sales Rating = SWITCH(
     TRUE(),
     SUM(Sales[SalesAmount]) > 2500000, "⭐⭐⭐",
@@ -108,9 +102,7 @@ Sales Rating = SWITCH(
     SUM(Sales[SalesAmount]) > 2000000, "⭐",
     "🔴 Red Light"
 )
-```
 
----
 
 ## 📈 Visualizations and Insights
 
@@ -126,30 +118,27 @@ Sales Rating = SWITCH(
 - **Chart Type**: Bar chart with slicers for regions.
 - **Insights**: Performance comparison across product categories.
 
----
+
 
 ## 📂 File Structure
-```plaintext
+plaintext
 .
 ├── DAX practice.pbix          # Power BI file with analysis
 ├── sample-chocolate-sales-data-all.xlsx  # Source dataset
 ├── README.md                  # Documentation
-```
 
----
 
 ## 🤝 Contributing
 Contributions are welcome! If you have suggestions or want to collaborate, please open an issue or submit a pull request.
 
----
+
 
 ## 🧾 License
 This project is open-sourced under the MIT License.
 
----
 
 ## 📬 Contact
 If you have any questions or feedback, feel free to reach out!
-```
+
 
 Would you like any adjustments or additional details?
